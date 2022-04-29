@@ -1,0 +1,47 @@
+<h1>The recipes are</h1>
+Here we want a ul list with the instructor, recipenum, title, term
+<hr>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Recipe Title</th>
+            <th>Instructions</th>
+            <th>Ingredients</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+    <% for (recipe of recipes) { %>
+      <tr class="mb-2"> 
+        <td>
+            <a href="/recipes/show/<%= recipe._id %>">
+                <%=  recipe.title %>
+            </a>
+        </td>
+        <td>
+            <ol>
+                <% for (const number in recipe.instructions) { %>
+                    <li>
+                        <%= recipe.instructions[number] %>
+                    </li>
+                <% } %>
+            </ol>
+        </td>
+        <td>
+            <ol>
+                <% for (const ingredient in recipe.ingredients) { %>
+                    <li>
+                        <%= ingredient %>
+                    </li>
+                <% } %>
+            </ol>
+        </td>
+    </tr>
+    <% } %>
+    </tbody>
+</table>
+
+<pre>
+    
+    <%= JSON.stringify(recipes,null,5) %> 
+   
+</pre>

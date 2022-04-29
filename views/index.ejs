@@ -1,0 +1,34 @@
+
+
+    <div class="jumbotron">
+        <h1>CPA02: Cooking Recipe Search </h1>
+        <p></p>
+    </div>
+
+    <p class="p-3 m-3 border border-primary bg-light">
+        The goal of this assignment is to write an app that will let
+        students pick their courses for the year. Since we don't have 
+        the data for this year (due to workday issues), we will use the 
+        2020-2021 Academic year data. You must signup or login to see
+        the courses and create your schedule.
+    </p>
+    
+    <% if (true || loggedIn) {%>  
+        <form method="post" action="/recipes/byTitle">
+            Show Recipes by Title: 
+              <input type="text" name="title" 
+                     placeholder="e.g. Italian">
+            <input type="submit">
+        </form>
+        <br>
+        <form method="post" action="/recipes/byIngr">
+            Show Recipes by Ingredients: 
+            <input type="text" name="ingredient" 
+                   placeholder="e.g. yogurt">
+            <input type="submit">
+        </form>
+        <br>
+        <a href="/favorite/show">Show Favorites</a>
+    <% } %>
+
+

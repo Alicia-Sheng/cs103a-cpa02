@@ -1,0 +1,37 @@
+<div class="bg-light m-5 p-2 border border-primary border-2">
+    <div class="">
+        <span>
+            <strong><%= recipe.title %></strong>
+        </span>
+    </div>
+    <br>
+    <div>
+        <p>Ingredients</p>
+        <ol>
+            <% for (const ingredient in recipe.ingredients) { %>
+                <li>
+                    <%= recipe.ingredients[ingredient]['description'] + ' ' + ingredient %>
+                </li>
+            <% } %>
+        </ol>
+    </div>
+    <div>
+        <p>Instructions</p>
+        <ol>
+            <% for (const number in recipe.instructions) { %>
+                <li>
+                    <%= recipe.instructions[number] %>
+                </li>
+            <% } %>
+        </ol>
+    </div>
+    <div><a href="/addRecipe/<%= recipe['_id'] %>">(add to favorites)</a></div>
+
+</div>
+
+<hr>
+
+<pre>
+    <%= JSON.stringify(recipe,null,5) %>
+</pre>
+-->
