@@ -187,17 +187,17 @@ app.get('/todo',
 // this route loads in the recipes into the Recipe collection
 // or updates the recipes if it is not a new collection
 
-app.get('/upsertDB',
-  async (req,res,next) => {
-    //await Recipe.deleteMany({})
-    for (recipe of recipes) {
-      const {title, instructions, healthiness, ingredients, url} = recipe;
-      await Recipe.findOneAndUpdate({title, instructions, healthiness, ingredients, url}, recipe, {upsert:true})
-    }
-    const num = await Recipe.find({}).count();
-    res.send("data uploaded: " + num)
-  }
-)
+// app.get('/upsertDB',
+//   async (req,res,next) => {
+//     //await Recipe.deleteMany({})
+//     for (recipe of recipes) {
+//       const {title, instructions, healthiness, ingredients, url} = recipe;
+//       await Recipe.findOneAndUpdate({title, instructions, healthiness, ingredients, url}, recipe, {upsert:true})
+//     }
+//     const num = await Recipe.find({}).count();
+//     res.send("data uploaded: " + num)
+//   }
+// )
 
 
 app.post('/recipes/byTitle',
