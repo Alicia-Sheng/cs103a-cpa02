@@ -31,6 +31,7 @@ nodemon
 <kbd><img src="https://github.com/Alicia-Sheng/cs103a_cpa2/public/screeshot/s1.png" width=300></kbd>
 
   * home page
+  * search by title or ingredient
 
 <br />
 
@@ -38,7 +39,7 @@ nodemon
 
 <br />
 
-  * search by title
+  * result page
 
 <br />
 
@@ -46,7 +47,7 @@ nodemon
 
 <br />
 
-  * search by ingredient
+  * deatils page
 
 <br />
 
