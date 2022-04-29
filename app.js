@@ -26,7 +26,7 @@ const Favorite = require('./models/Favorite')
 //  Loading JSON datasets
 // *********************************************************** //
 // const recipes = require('./public/data/recipes20-21.json')
-const recipes = require('./public/data/recipe_data.json')
+// const recipes = require('./public/data/recipe_data.json')
 
 
 // *********************************************************** //
