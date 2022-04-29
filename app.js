@@ -34,7 +34,7 @@ const recipes = require('./public/data/recipe_data.json')
 // *********************************************************** //
 
 const mongoose = require('mongoose');
-const mongodb_URI = 'mongodb+srv://AliciaSheng:vC5uCJxmkBkFtCjM@ascluster.w4g6f.mongodb.net/cpa02?retryWrites=true&w=majority'
+const mongodb_URI = process.env.mongodb_URI
 
 mongoose.connect( mongodb_URI, { useNewUrlParser: true, useUnifiedTopology: true } );
 // fix deprecation warnings
