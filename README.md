@@ -28,14 +28,14 @@ nodemon
 
 ## Demo
 
-<kbd><img src="https://github.com/Alicia-Sheng/cs103a_cpa2/public/screeshot/s1.png" width=300></kbd>
+<kbd><img src="https://github.com/Alicia-Sheng/cs103a-cpa02/public/screeshot/s1.png" width=300></kbd>
 
   * home page
   * search by title or ingredient
 
 <br />
 
-<kbd><img src="https://github.com/Alicia-Sheng/cs103a_cpa2/public/screeshot/s2.png" width=300></kbd>
+<kbd><img src="https://github.com/Alicia-Sheng/cs103a-cpa02/public/screeshot/s2.png" width=300></kbd>
 
 <br />
 
@@ -43,7 +43,7 @@ nodemon
 
 <br />
 
-<kbd><img src="https://github.com/Alicia-Sheng/cs103a_cpa2/public/screeshot/s3.png" width=300></kbd>
+<kbd><img src="https://github.com/Alicia-Sheng/cs103a-cpa02/public/screeshot/s3.png" width=300></kbd>
 
 <br />
 
@@ -51,7 +51,7 @@ nodemon
 
 <br />
 
-<kbd><img src="https://github.com/Alicia-Sheng/cs103a_cpa2/public/screeshot/s4.png" width=300></kbd>
+<kbd><img src="https://github.com/Alicia-Sheng/cs103a-cpa02/public/screeshot/s4.png" width=300></kbd>
 
 <br />
 
