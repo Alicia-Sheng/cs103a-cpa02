@@ -1,18 +1,22 @@
-<ul>
+<div class="d-flex flex-wrap overflow-scroll">
     <% for (recipe of recipes){%>
-        <li> 
+        <div class="p-3 m-3 border border-primary bg-light w-25">
+            <br>
             <a href="/favorite/remove/<%= recipe._id %>">X</a>
-            <strong><%= recipe.title %></strong>
-            Ingredients: 
-            <% for (const ingredient in recipe.ingredients) { %>
-                    <%= ingredient + ', ' %>
-            <% } %>
-        </li>
-    <% } %>
-</ul>
-
-<!--
-    <pre>
-        <%= JSON.stringify(recipes,null,5) %>
-    </pre>
--->
+            <strong><a href="/recipes/show/<%= recipe._id %>"><%= recipe.title %></a></strong>
+            <br>
+            <br>
+            <div>
+                Ingredients: 
+                <br>
+                <br>
+                <ol>
+                    <% for (const ingredient in recipe.ingredients) { %>
+                        <li><%= ingredient %></li>
+                    <% } %>
+                </ol>
+            </div>
+            </br>
+        </div>
+        <% } %>
+</div>

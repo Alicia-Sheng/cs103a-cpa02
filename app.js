@@ -36,6 +36,7 @@ const mongoose = require('mongoose');
 const mongodb_URI = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@ascluster.w4g6f.mongodb.net/cpa02?retryWrites=true&w=majority`
 // const mongodb_URI = `${process.env.mongodb_URI}`
 
+
 mongoose.connect( mongodb_URI, { useNewUrlParser: true, useUnifiedTopology: true } );
 // fix deprecation warnings
 mongoose.set('useFindAndModify', false); 
