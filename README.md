@@ -28,14 +28,14 @@ nodemon
 
 ## Demo
 
-<kbd><img src="https://github.com/Alicia-Sheng/cs103a_cpa2/public/screeshot/s1.png" width=300></kbd>
+<kbd><img src="https://github.com/Alicia-Sheng/cs103a-cpa02/blob/4322e2aad1b81d7d78bbd795dccd2fdec21b8837/public/screenshots/s1.png" width=1000></kbd>
 
   * home page
   * search by title or ingredient
 
 <br />
 
-<kbd><img src="https://github.com/Alicia-Sheng/cs103a_cpa2/public/screeshot/s2.png" width=300></kbd>
+<kbd><img src="https://github.com/Alicia-Sheng/cs103a-cpa02/blob/4322e2aad1b81d7d78bbd795dccd2fdec21b8837/public/screenshots/s2.png" width=1000></kbd>
 
 <br />
 
@@ -43,7 +43,7 @@ nodemon
 
 <br />
 
-<kbd><img src="https://github.com/Alicia-Sheng/cs103a_cpa2/public/screeshot/s3.png" width=300></kbd>
+<kbd><img src="https://github.com/Alicia-Sheng/cs103a-cpa02/blob/4322e2aad1b81d7d78bbd795dccd2fdec21b8837/public/screenshots/s3.png" width=1000></kbd>
 
 <br />
 
@@ -51,7 +51,7 @@ nodemon
 
 <br />
 
-<kbd><img src="https://github.com/Alicia-Sheng/cs103a_cpa2/public/screeshot/s4.png" width=300></kbd>
+<kbd><img src="https://github.com/Alicia-Sheng/cs103a-cpa02/blob/4322e2aad1b81d7d78bbd795dccd2fdec21b8837/public/screenshots/s4.png" width=1000></kbd>
 
 <br />
 
